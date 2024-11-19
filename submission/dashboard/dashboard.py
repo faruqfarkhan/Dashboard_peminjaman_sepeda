@@ -13,13 +13,13 @@ import streamlit as st
 ########################################## Mengelola Data ###################################
 
 
-file = "subbmission/data/day_data.csv"
-day_data = pd.read_csv(file)
+# file = "subbmission/data/day_data.csv"
+day_data = pd.read_csv(subbmission/data/day_data.csv)
 day_data["dteday"] = pd.to_datetime(day_data["dteday"])
 
 
-file = "subbmission/data/day_data.csv"
-hour_data = pd.read_csv(file)
+# file = "dashboard/day_data.csv"
+hour_data = pd.read_csv(dashboard/day_data.csv)
 hour_data["dteday"] = pd.to_datetime(hour_data["dteday"])
 
 ####Data Peminjam Per 1 Bulan ####
