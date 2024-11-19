@@ -14,7 +14,7 @@ import streamlit as st
 
 
 # file = "subbmission/data/day_data.csv"
-day_data = pd.read_csv("day_data.csv")
+day_data = pd.read_csv("submission/dashboard/day_data.csv")
 day_data["dteday"] = pd.to_datetime(day_data["dteday"])
 
 
