@@ -14,12 +14,12 @@ import streamlit as st
 
 
 # file = "subbmission/data/day_data.csv"
-day_data = pd.read_csv(subbmission/data/day_data.csv)
+day_data = pd.read_csv(day_data.csv)
 day_data["dteday"] = pd.to_datetime(day_data["dteday"])
 
 
 # file = "dashboard/day_data.csv"
-hour_data = pd.read_csv(dashboard/day_data.csv)
+hour_data = pd.read_csv(dashboard/hour_data.csv)
 hour_data["dteday"] = pd.to_datetime(hour_data["dteday"])
 
 ####Data Peminjam Per 1 Bulan ####
