@@ -13,12 +13,12 @@ import streamlit as st
 ########################################## Mengelola Data ###################################
 
 
-file = "../data/day_data.csv"
+file = "subbmission/data/day_data.csv"
 day_data = pd.read_csv(file)
 day_data["dteday"] = pd.to_datetime(day_data["dteday"])
 
 
-file = "../data/day_data.csv"
+file = "subbmission/data/day_data.csv"
 hour_data = pd.read_csv(file)
 hour_data["dteday"] = pd.to_datetime(hour_data["dteday"])
 
